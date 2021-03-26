@@ -16,6 +16,7 @@ dependencies:
   flutter_web_auth:
     git:
       url: git@github.com:junying1/flutter_web_auth.git
+      ref: plugin_migration
   random_string: ^2.0.1
   crypto: ^2.1.4
   flutter_secure_storage: ^3.3.3
