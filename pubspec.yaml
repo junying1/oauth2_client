@@ -13,7 +13,9 @@ dependencies:
     sdk: flutter
   meta: ^1.1.8
   http: '>=0.12.2 <0.14.0'
-  flutter_web_auth: ^0.2.4
+  flutter_web_auth:
+    git:
+      url: git@github.com:junying1/flutter_web_auth.git
   random_string: ^2.0.1
   crypto: ^2.1.4
   flutter_secure_storage: ^3.3.3
