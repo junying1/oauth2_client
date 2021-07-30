@@ -1,3 +1,24 @@
+## [2.2.2] - 2021/06/27
+* Fixes (scope handling)
+
+## [2.2.1] - 2021/06/23
+* Fixes (incorrect scope handling with implicit grant, send empty client secret if specified)
+* Added Reddit client (thanks [lavalleeale](https://github.com/lavalleeale))
+## [2.2.0] - 2021/05/29
+* Web platform support!
+## [2.1.0] - 2021/04/15
+* AccessTokenResponse refactorization. It is now possible to retrieve custom response fields through the ```getRespField``` method
+* Scopes separator can be configured with the OAuth2Client's ```scopeSeparator``` param
+## [2.0.1] - 2021/04/06
+* Complete migration to sound null safety
+* Updated dependencies
+## [2.0.0-nullsafety] - 2021/03/30
+* Migration to null safety
+* Deprecated OAuth2Helper.setAuthorizationParams method
+## [1.8.0] - 2021/03/28
+* Add compatibility with http 0.13 (thanks [bangfalse](https://github.com/bangfalse))
+* Allow passing credentials location in request body or header (thanks [sbu-WBT](https://github.com/wbt-solutions))
+* Added Shopify client (thanks [sbu-WBT](https://github.com/wbt-solutions))
 ## [1.7.1] - 2021/02/25
 * Fixes (make httpClient optional again in OAuth2Helper)
 
